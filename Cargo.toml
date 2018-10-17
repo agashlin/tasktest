@@ -1,0 +1,17 @@
+[package]
+name = "tasktest"
+version = "0.0.1"
+authors = ["Adam Gashlin <agashlin@mozilla.com>"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+comical = {path = "./comical"}
+wintask = {path = "./wintask"}
+widestring = "0.3"
+winapi = {version = "0.3", features = ["handleapi",
+                                       "minwinbase",
+                                       "processthreadsapi",
+                                       "securitybaseapi",
+                                       "winbase",
+                                       "winerror",
+                                       "winnt"]}

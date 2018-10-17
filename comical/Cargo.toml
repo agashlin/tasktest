@@ -1,0 +1,24 @@
+[package]
+name = "comical"
+version = "0.0.1"
+authors = ["Adam Gashlin <agashlin@mozilla.com>"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+widestring = "0.3"
+winapi = {version = "0.3", features = ["combaseapi",
+                                       "errhandlingapi",
+                                       "handleapi",
+                                       "impl-default",
+                                       "oaidl",
+                                       "oleauto",
+                                       "objbase",
+                                       "minwinbase",
+                                       "minwindef",
+                                       "ntdef",
+                                       "securitybaseapi",
+                                       "unknwnbase",
+                                       "winbase",
+                                       "winerror",
+                                       "wtypes",
+                                       "wtypesbase"] }
